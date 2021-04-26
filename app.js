@@ -5,7 +5,9 @@ Vue.createApp({
             goals:[],
             enteredValue:'',
             linkVueValue:'https://vuejs.org/',
-            linkVueText:'Vue.JS'
+            linkVueText:'Vue.JS',
+            fullname: 'Joseph Commit',
+            welcome_greets: 'Hello '
         }
     },
     methods:{
@@ -13,7 +15,8 @@ Vue.createApp({
             this.goals.push(this.enteredValue);
         },
         printName(){
-            return "Joseph Commit!";
+            welcome_greets = 'Hi ';
+            return this.welcome_greets + this.fullname + '!';
         }
     }
 }).mount('#form1');

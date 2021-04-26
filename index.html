@@ -3,7 +3,7 @@
     </head>
     <body>
         <div id="form1">
-            <p>Hi {{ printName() }}</p>
+            <p>{{ printName() }}</p>
             <label>Add goal:</label>
             <input type="text" v-model="enteredValue"/>
             <button v-on:click="addGoal">presione</button>
