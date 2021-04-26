@@ -11,6 +11,9 @@ Vue.createApp({
     methods:{
         addGoal(){
             this.goals.push(this.enteredValue);
+        },
+        printName(){
+            return "Joseph Commit!";
         }
     }
 }).mount('#form1');
