@@ -7,7 +7,8 @@ Vue.createApp({
             linkVueValue:'https://vuejs.org/',
             linkVueText:'Vue.JS',
             fullname: 'Joseph Commit',
-            welcome_greets: 'Hello '
+            welcome_greets: 'Hello ',
+            htmlText:'<h1>H1 Header</h1>'
         }
     },
     methods:{

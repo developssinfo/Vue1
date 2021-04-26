@@ -3,6 +3,7 @@
     </head>
     <body>
         <div id="form1">
+            <p v-html="htmlText"></p>
             <p>{{ printName() }}</p>
             <label>Add goal:</label>
             <input type="text" v-model="enteredValue"/>
