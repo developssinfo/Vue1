@@ -3,7 +3,9 @@ Vue.createApp({
     data(){
         return{
             goals:[],
-            enteredValue:''
+            enteredValue:'',
+            linkVueValue:'https://vuejs.org/',
+            linkVueText:'Vue.JS'
         }
     },
     methods:{
