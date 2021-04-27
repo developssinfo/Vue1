@@ -15,7 +15,7 @@
         </div>
         <div id="formEvents">
             <label>Enter Name:</label>
-            <input v-on:input="readName"/>
+            <input v-on:input="readName" v-on:keyup.enter="show" />
             <button v-on:click="show">Show Full Summary</button>
             <p>{{ summary }}</p>
         </div>
