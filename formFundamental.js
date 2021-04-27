@@ -20,4 +20,4 @@ Vue.createApp({
             return this.welcome_greets + this.fullname + '!';
         }
     }
-}).mount('#form1');
+}).mount('#formFundamental');
