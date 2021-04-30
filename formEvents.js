@@ -3,7 +3,13 @@ Vue.createApp({
     data(){
         return{
             name:'isai',
+            lastname:'villalba',
             summary:''
+        }
+    },
+    computed:{
+        fullname(){
+            return this.name + ' ' + this.lastname;
         }
     },
     methods:{

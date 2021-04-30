@@ -16,11 +16,17 @@
         <div id="formEvents">
             <label>Enter Name:</label>
             <input v-on:input="readName" v-on:keyup.enter="show" />
+            
+            <label>Enter Last Name:</label>
+            <input v-model="lastname" />
+
             <button v-on:click="show">Show Full Summary</button>
+            
             <p>{{ summary }}</p>
+            <p>Fullname: {{ fullname }}</p>
         </div>
         <script src="https://unpkg.com/vue@next"></script>
         <script src="formFundamental.js"></script>
-        <script src="formEvents"></script>
+        <script src="formEvents.js"></script>
     </body>
 </html>
